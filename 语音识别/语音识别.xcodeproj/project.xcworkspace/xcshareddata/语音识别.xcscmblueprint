@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5AB53A6A108BFE66D9FBC240B88D58C9D3876E29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5AB53A6A108BFE66D9FBC240B88D58C9D3876E29" : 9223372036854775807,
+    "4DB96107BB8452F8C29E146E4BFC369C1651E5D7" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06B62D4D-0ED6-4A49-8211-BA893D679AE8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5AB53A6A108BFE66D9FBC240B88D58C9D3876E29" : "voiceRecognize\/",
+    "4DB96107BB8452F8C29E146E4BFC369C1651E5D7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "语音识别",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "语音识别\/语音识别.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Liangjianghao\/myself.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4DB96107BB8452F8C29E146E4BFC369C1651E5D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Liangjianghao\/voiceRecognize.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5AB53A6A108BFE66D9FBC240B88D58C9D3876E29"
+    }
+  ]
+}

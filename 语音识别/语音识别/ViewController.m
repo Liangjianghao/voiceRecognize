@@ -11,7 +11,9 @@
 #import "IATConfig.h"
 #import "ISRDataHelper.h"
 @interface ViewController ()
-
+{
+    UILabel *mylabel;
+}
 @end
 
 @implementation ViewController
@@ -38,6 +40,14 @@
     [self.view addSubview:mybutton2];
     
     
+    mylabel=[[UILabel alloc]init];
+    mylabel.frame=CGRectMake(100, 300, 100, 40);
+    mylabel.backgroundColor=[UIColor blueColor];
+    mylabel.text=@"yuyin";
+    [self.view addSubview:mylabel];
+    
+
+    
 }
 
 - (void) onVolumeChanged: (int)volume
@@ -45,7 +55,7 @@
 
     
     NSString * vol = [NSString stringWithFormat:@"音量：%d",volume];
-//    NSLog(@"%@",vol);
+    NSLog(@"%@",vol);
     
 }
 -(void)initRecognizer
@@ -188,7 +198,7 @@
 
     NSLog(@"_result=%@",resultString);
     NSLog(@"resultFromJson=%@",resultFromJson);
-
+    mylabel.text=resultFromJson;
 
 }
 
